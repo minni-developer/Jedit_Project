@@ -137,7 +137,7 @@ systrayicon=true
 #}}}
 
 #{{{ Menu bar
-view.mbar=file edit search markers folds view utils macros plugins help-menu
+view.mbar=file edit search markers folds view utils macros plugins help-menu Module_1
 
 #{{{ File menu
 file=new-file \
@@ -189,6 +189,11 @@ recent-files.code=new RecentFilesProvider();
 
 reload-encoding.code=new ReloadWithEncodingProvider();
 reload-encoding.icon.small=16x16/actions/view-refresh.png
+#}}}
+
+#{{{Module_1
+Module_1 = Submit_Bug \
+
 #}}}
 
 #{{{ Edit menu

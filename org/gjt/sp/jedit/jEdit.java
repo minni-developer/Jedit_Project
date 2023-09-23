@@ -4692,4 +4692,13 @@ loop:	for(int i = 0; i < list.length; i++)
 		}
 	} //}}}
 
+
+	public static void actionPerformed() {
+		// Open the website in the default web browser
+		try {
+			java.awt.Desktop.getDesktop().browse(new java.net.URI("https://sourceforge.net/p/jedit/bugs/"));
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
 }

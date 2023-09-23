@@ -14,6 +14,14 @@
 
 <ACTIONS>
 
+<ACTION NAME="Submit_Bug">
+	<CODE>
+		// Display a message
+		JOptionPane.showMessageDialog(null, "do u wanna Submit Bug!");
+		jEdit.actionPerformed();
+
+	</CODE>
+</ACTION>
 <ACTION NAME="about">
 	<CODE>
 		new AboutDialog(view);
